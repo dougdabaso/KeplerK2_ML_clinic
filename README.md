@@ -7,9 +7,11 @@ In this repository I will include some of the Python scripts and Jupyter nootboo
 lightcurve_trend_filtering_EMD.ipynb - Filtering trends in lightcurves with EMD (a parameter-free alternative to Savitzky-Golay filtering)
 
 * Available modules
-lightcurve_analysis
-  - ML_and_stat_tools class
-    Class to compute some ML and statistical tools to analyze Kepler/K2 data, specially lightcurve time series.
+
+- lightcurve_analysis
+  -ML_and_stat_tools class
+  
+  Class to compute some ML and statistical tools to analyze Kepler/K2 data, specially lightcurve time series.
     
 New function and classes: to be updated
 
