@@ -9,6 +9,7 @@ lightcurve_trend_filtering_EMD.ipynb - Filtering trends in lightcurves with EMD 
 * Available modules
 
 - lightcurve_analysis
+
   -ML_and_stat_tools class
   
   Class to compute some ML and statistical tools to analyze Kepler/K2 data, specially lightcurve time series.
