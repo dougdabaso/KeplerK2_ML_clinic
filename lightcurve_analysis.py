@@ -38,6 +38,7 @@ class ML_and_stat_tools:
     
         # Defining input parameters (hardcoded for now)
         my_config = self.default_EMD_config
+        my_config["std_thr"] = 0.01*np.nanvar(original_time_series)
     
         # Computing the intrisic mode functions (IMFs) using EMD
         eemd = EEMD(**my_config) # Initializing EMD
